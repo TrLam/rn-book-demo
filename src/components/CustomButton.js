@@ -8,14 +8,15 @@ import {
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: 'rgb(117, 207, 150)',
+    backgroundColor: '#e0ffff',
     // width: 100,
     flex: 1,
     justifyContent: 'center',
-    alignContent: 'center',
+    alignItems: 'center',
+    alignSelf: 'stretch',
   },
   title: {
-    color: 'white',
+    color: 'navy',
     fontSize: 14,
   }
 });
