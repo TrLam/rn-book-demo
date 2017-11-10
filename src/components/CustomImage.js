@@ -1,10 +1,11 @@
 import React from 'react';
 
 import {
-  Image,
-  StyleSheet,
+  Image,  // React-native built-in component
+  StyleSheet, // An abstraction similar to CSS Stylesheets
 } from 'react-native';
 
+// Create a style reference from the given object
 const CustomImageStyles = StyleSheet.create({
   image: {
     borderColor: 'rgba(117, 117, 117, 0.3)',
@@ -13,9 +14,11 @@ const CustomImageStyles = StyleSheet.create({
   },
 });
 
-// CamelCase for component name
-const CustomImage = (props) => {
-  const { img } = props;
+// Function!!!
+const CustomImage = (props) => {  // CamelCase for component name
+  // Props: Parameters passed to your components to customize them
+  // OREO QUIZ: NAME ONE ADVANTAGE OF HAVING PROPS
+  const { img } = props;  // Pass img reference as props
 
   return (
     <Image
